@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
+      <module name="saleshero-lambda-content-text_main" target="1.8" />
+      <module name="saleshero-lambda-content-text_test" target="1.8" />
       <module name="saleshero-lambda-template_main" target="1.8" />
       <module name="saleshero-lambda-template_test" target="1.8" />
     </bytecodeTargetLevel>

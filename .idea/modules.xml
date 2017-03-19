@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/saleshero-lambda-template.iml" filepath="$PROJECT_DIR$/.idea/modules/saleshero-lambda-template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/saleshero-lambda-template_main.iml" filepath="$PROJECT_DIR$/.idea/modules/saleshero-lambda-template_main.iml" group="saleshero-lambda-template" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/saleshero-lambda-template_test.iml" filepath="$PROJECT_DIR$/.idea/modules/saleshero-lambda-template_test.iml" group="saleshero-lambda-template" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/saleshero-lambda-content-text.iml" filepath="$PROJECT_DIR$/.idea/modules/saleshero-lambda-content-text.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/saleshero-lambda-content-text_main.iml" filepath="$PROJECT_DIR$/.idea/modules/saleshero-lambda-content-text_main.iml" group="saleshero-lambda-content-text" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/saleshero-lambda-content-text_test.iml" filepath="$PROJECT_DIR$/.idea/modules/saleshero-lambda-content-text_test.iml" group="saleshero-lambda-content-text" />
     </modules>
   </component>
 </project>

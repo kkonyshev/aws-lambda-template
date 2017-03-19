@@ -15,11 +15,11 @@ buildscript {
 	}
 }
 
-group = "jp.classmethod.aws.example"
+group = "sh.lambda.email"
 version = "0.1-SNAPSHOT"
 
-ext.artifactId = "aws-lambda-single-command-deploy-example"
-ext.functionName = "sh-template"
+ext.artifactId = "content-decoder"
+ext.functionName = "sh-email-content-decoder"
 
 apply plugin: "java"
 apply plugin: "aws-lambda"
@@ -46,6 +46,11 @@ repositories {
 dependencies {
 	compile 'com.amazonaws:aws-lambda-java-core:1.0.0'
 	compile 'com.google.guava:guava:18.0'
+	compile 'com.google.code.gson:gson:2.8.0'
+	compile 'net.dongliu:gson-java8-datatype:1.0.2'
+	compile 'com.amazonaws:aws-java-sdk-s3:1.11.105'
+	compile 'javax.mail:mail:1.4.7'
+	compile 'org.jsoup:jsoup:1.10.1'
 }
 
 // ======== bundle ========
@@ -66,7 +71,7 @@ task migrateFunction(type: AWSLambdaMigrateFunctionTask, dependsOn: build) {
 	role = "arn:aws:iam::${aws.accountId}:role/lambda_basic_execution"
 	runtime = Runtime.Java8
 	zipFile = jar.archivePath
-	handler = "sh.lambda.Base64Encoder"
+	handler = "sh.lambda.email.content.ContentDecoder"
 }
 
 task invokeFunction(type: AWSLambdaInvokeTask) {
