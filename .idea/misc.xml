@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Documents/workspace/my-first-app" value="1447770292000" />
+        <entry key="$USER_HOME$/Documents/workspace/scalatra-website-examples/2.4/http/authentication-demo" value="1442729122000" />
+        <entry key="$USER_HOME$/Documents/workspace/scalatra-website-examples/2.4/http/scalatra-http-demo" value="1442729122000" />
+        <entry key="$USER_HOME$/Documents/workspace/scalatra-website-examples/2.4/http/scentry-auth-demo" value="1442729122000" />
+        <entry key="$USER_HOME$/Documents/workspace/untitled1" value="1448072237000" />
+        <entry key="$USER_HOME$/dev/scala/my-scalatra-web-app" value="1436457377000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherPath" value="/usr/local/Cellar/sbt/0.13.8/libexec/sbt-launch.jar" />
+    <option name="customVMPath" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
